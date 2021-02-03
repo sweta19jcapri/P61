@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding-top: 400px;
+    text-align: center;
+}
+
+.profile {
+  
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(to top, #370537, #831646, #c4443e, #ea8625, #ebd212);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+        font-weight: bold;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#bio {
+  margin-top: 130px;
+    padding: 50px;
+    text-align: center;
+      font-family: 'Cinzel Decorative', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+p {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.parallax-inner {
+padding-top: 70px;
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    
+}
+
+.links {
+
+    padding-left: 5px;
+    padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+    font-family: Serif;
+    font-size: 18px;
+  
+}
+.links:hover {
+    font-size: 22px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+      display: inline;
+
+}
+
+li a {
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #EBD212;
+  color: #370537;
+}
+
+.article:hover {
+    color:#370537;
+}
+
+#writings a
+{
+text-shadow: none !important;
+text-decoration: underline !important;
+color: blue !important;
+}
+
+#contact
+{
+background: #EBD212;
+}
+
+#contact iframe
+{
+    width: 95%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: #370537;
+      font-family: Monospace;
+}
+
+.button {
+    height: 30px;
+    background-color: #EBD212;
+    width: 300px;
+  color: #370537;
+    border: 2px solid #370537;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+#ins {
+transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #370537;
+  border-radius: 25px;
+  border-style:solid;
+  padding: 3px;
+}
+
+#ins:hover {
+    transform: scale(0.9);
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-style {
+    margin-left: 25px;
+  margin-top: 25px;
+    margin-right: 25px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.sm-style {
+    margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    margin-right: 20px;
+}
